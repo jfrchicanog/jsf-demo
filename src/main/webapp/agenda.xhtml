@@ -11,7 +11,7 @@
 
 <h:body>
 
-<h:form>
+<h:form id="entradaContactos">
 
 <table>
 <THEAD>
@@ -21,48 +21,48 @@
 	</TR>
 </THEAD>
 <tr>
-	<td><h:inputText value="#{agenda.contacto.nombre}" required="true"/></td>
-	<td><h:inputText value="#{agenda.contacto.telefono}"/></td>
-	<td><h:commandButton action="#{agenda.aniadirContacto}" value="Añadir"/></td>
+	<td><h:inputText id="nombre" value="#{agenda.contacto.nombre}" required="true"/></td>
+	<td><h:inputText id="telefono" value="#{agenda.contacto.telefono}"/></td>
+	<td><h:commandButton id="botonAniadir" action="#{agenda.aniadirContacto}" value="Añadir"/></td>
 </tr>
 </table>
 
 </h:form>
 
-<h:messages/>
+<h:messages id="mensajes"/>
 
-<h:form>
+<h:form id="accionesContactos">
 
-<h:dataTable value="#{agenda.todosContactos}" var="c">
+<h:dataTable id="tabla" value="#{agenda.todosContactos}" var="c">
 	<h:column>
 		<f:facet name="header">
 			Nombre
 		</f:facet>
-		<h:outputText value="#{c.nombre}"/>
+		<h:outputText id="nombre" value="#{c.nombre}"/>
 	</h:column>
 	
 	<h:column>
 		<f:facet name="header">
 			Teléfono
 		</f:facet>
-		<h:outputText value="#{c.telefono}"/>
+		<h:outputText id="telefono" value="#{c.telefono}"/>
 	</h:column>
 	
 	<h:column>
-		<h:commandButton action="#{agenda.eliminar(c)}" value="Eliminar"/>
+		<h:commandButton id="eliminar" action="#{agenda.eliminar(c)}" value="Eliminar"/>
 	</h:column>
 	
 </h:dataTable>
 
 </h:form>
 
-<h:form>
-	<h:selectOneMenu value="#{agenda.contactoElegido}">
-		<f:selectItems value="#{agenda.todosContactos}" 
+<h:form id="selector">
+	<h:selectOneMenu id="menuSeleccion" value="#{agenda.contactoElegido}">
+		<f:selectItems id="elemento" value="#{agenda.todosContactos}" 
 		var="c" itemLabel="#{c.nombre} (#{c.telefono})" itemValue="#{c.nombre}"/>
 	</h:selectOneMenu>
-	<h:outputText value="#{agenda.contactoElegido}"/>
-	<h:commandButton value="Enviar"/>
+	<h:outputText id="textoContactoElegido" value="#{agenda.contactoElegido}"/>
+	<h:commandButton id="botonContactoElegido" value="Enviar"/>
 </h:form>
 
 </h:body>
