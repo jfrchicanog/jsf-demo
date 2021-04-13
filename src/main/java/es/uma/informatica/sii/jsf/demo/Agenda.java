@@ -1,6 +1,5 @@
 package es.uma.informatica.sii.jsf.demo;
 
-import java.util.Collections;
 import java.util.List;
 
 import javax.enterprise.context.RequestScoped;
