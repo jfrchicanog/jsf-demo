@@ -2,7 +2,7 @@
   "id": "24a3e119-a7f3-4ed3-b0d1-15d45e039b40",
   "version": "2.0",
   "name": "Practica 4",
-  "url": "http://0.0.0.0:8080",
+  "url": "http://localhost:8080",
   "tests": [{
     "id": "738bc251-a0b5-4575-8540-38a7b2fdbba3",
     "name": "Apellido presente entrada",
@@ -792,6 +792,6 @@
     "timeout": 300,
     "tests": ["738bc251-a0b5-4575-8540-38a7b2fdbba3"]
   }],
-  "urls": ["http://0.0.0.0:8080/"],
+  "urls": ["http://localhost:8080/"],
   "plugins": []
 }
