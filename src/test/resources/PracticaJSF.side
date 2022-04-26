@@ -10,7 +10,7 @@
       "id": "f5fade26-e52d-4402-a707-cf8a50dda3a8",
       "comment": "",
       "command": "open",
-      "target": "/jsf.demo-0.0.1-SNAPSHOT/faces/agenda.xhtml",
+      "target": "/jsf.demo-1.0.0/faces/agenda.xhtml",
       "targets": [],
       "value": ""
     }, {
@@ -40,7 +40,7 @@
       "id": "ec9fa3be-f8c3-4917-8598-79d31eda2019",
       "comment": "",
       "command": "open",
-      "target": "/jsf.demo-0.0.1-SNAPSHOT/faces/agenda.xhtml",
+      "target": "/jsf.demo-1.0.0/faces/agenda.xhtml",
       "targets": [],
       "value": ""
     }, {
@@ -142,7 +142,7 @@
       "id": "8df65455-6e52-4c2e-a908-4b62c056ab7d",
       "comment": "",
       "command": "open",
-      "target": "/jsf.demo-0.0.1-SNAPSHOT/faces/agenda.xhtml",
+      "target": "/jsf.demo-1.0.0/faces/agenda.xhtml",
       "targets": [],
       "value": ""
     }, {
@@ -171,7 +171,7 @@
       "id": "48ee164a-3756-451f-bd65-00921596059f",
       "comment": "",
       "command": "open",
-      "target": "/jsf.demo-0.0.1-SNAPSHOT/faces/agenda.xhtml",
+      "target": "/jsf.demo-1.0.0/faces/agenda.xhtml",
       "targets": [],
       "value": ""
     }, {
@@ -274,7 +274,7 @@
       "id": "748d7d93-6612-4e9d-bb55-b4f612c5e61a",
       "comment": "",
       "command": "open",
-      "target": "/jsf.demo-0.0.1-SNAPSHOT/faces/agenda.xhtml",
+      "target": "/jsf.demo-1.0.0/faces/agenda.xhtml",
       "targets": [],
       "value": ""
     }, {
@@ -389,7 +389,7 @@
       "id": "905a8f74-f571-41a8-9192-1d0e85d57835",
       "comment": "",
       "command": "open",
-      "target": "/jsf.demo-0.0.1-SNAPSHOT/faces/agenda.xhtml",
+      "target": "/jsf.demo-1.0.0/faces/agenda.xhtml",
       "targets": [],
       "value": ""
     }, {
@@ -603,7 +603,7 @@
       "id": "4aaa624c-ae6a-48d1-9d2c-69ecdb96711b",
       "comment": "",
       "command": "open",
-      "target": "/jsf.demo-0.0.1-SNAPSHOT/faces/agenda.xhtml",
+      "target": "/jsf.demo-1.0.0/faces/agenda.xhtml",
       "targets": [],
       "value": ""
     }, {
@@ -716,7 +716,7 @@
       "id": "1ddc4eac-03fd-4515-ace0-466f4d00555d",
       "comment": "",
       "command": "open",
-      "target": "/jsf.demo-0.0.1-SNAPSHOT/faces/agenda.xhtml",
+      "target": "/jsf.demo-1.0.0/faces/agenda.xhtml",
       "targets": [],
       "value": ""
     }, {
